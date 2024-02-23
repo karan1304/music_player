@@ -1,0 +1,189 @@
+body
+{
+margin:0;
+padding:0;
+display:flex;
+justify-content: center;
+align-items: center;
+height:100vh;
+}
+.container
+{
+width:250px;
+border:2px solid black;
+border-radius:10px;
+display:flex;
+justify-content: center;
+align-items:center;
+flex-direction:column;
+background:url('https://img.freepik.com/premium-photo/black-music-notes-song-melody-flowing-air-dark-background-copy-space-your-text-article-left-concept-music-aesthetic-rhythm-3d-illustration-rendering_34515-906.jpg');
+background-size: contain;
+/* background:url('https://i.ytimg.com/vi/GBaWq5tXn1I/hqdefault.jpg?v=62ac89e7') ; */
+
+/* background-size:cover; */
+/* background-repeat:no-repeat; */
+}
+
+.heading
+{
+/* border:2px solid red; */
+font-family:"Dancing Script",sans-serif;
+margin:0;
+
+margin:10px 0;
+color:white;
+}
+
+.song-image
+{
+width:220px;
+height:170px;
+margin-bottom:20px;
+border-radius:10px;
+}
+.song-name-box
+{
+/* border:2px solid blue; */
+width:90%;
+text-align:center;
+margin-bottom:10px;
+padding:10px 0;
+color:white;
+font-family:"Dancing Script";
+}
+.song-name
+{
+font-size:22px;
+}
+
+.song-bar-box
+{
+/* border:2px solid green; */
+width:90%;
+margin-bottom:10px;
+}
+/* .song-bar-box #song-bar
+{
+width:95%;
+} */
+input[type=range]
+{
+-webkit-appearance: none;
+width:95%;
+height:3px;
+background-color:rgba(0,0,0,0.9);
+border-radius:5px;
+outline:none;
+margin:10px 0;
+}
+
+input[type=range]::-webkit-slider-thumb
+{
+-webkit-appearance:none;
+width:10px;
+height:10px;
+border-radius:50%;
+cursor:pointer;
+background-color:white;
+}
+input[type=range]::-webkit-slider-thumb:hover
+{
+background:rgba(255,255,255,0.8);
+}
+
+.control-panel
+{
+/* border:2px solid brown; */
+display:flex;
+justify-content: space-between;
+align-items: center;
+width:85%;
+padding:5px;
+margin-bottom:10px;
+}
+
+.repeat-btn
+{
+background:transparent;
+border:none;
+outline:none;
+color:white;
+cursor:pointer;
+}
+
+.list
+{
+background: transparent;
+border:none;
+outline:none;
+color:white;
+cursor:pointer;
+}
+
+.control-btns
+{
+background: transparent;
+font-size:25px;
+border:none;
+border-radius:50%;
+color:white;
+}
+
+.control-btns>i
+{
+padding:2px;
+margin:2px;
+cursor:pointer;
+}
+
+.songs-list-box
+{
+width:90%;
+height:50px;
+overflow-y: scroll;
+/* border:2px solid magenta; */
+margin-bottom:10px;
+
+}
+.songs-list-box .songs
+{
+padding:0px;
+margin:0px;
+list-style: none;
+font-family: "Dancing script";
+display:none;
+}
+.songs-list-box .songs>li
+{
+/* border:1px solid chartreuse; */
+margin:2px;
+color:white;
+cursor:pointer;
+}
+
+/* style scroll-bar */
+  /* width */
+  /* width */
+  ::-webkit-scrollbar {
+    width: 2px;
+    /* display:none; */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    display:none;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+  
+
